@@ -1,4 +1,4 @@
-package com.petsemfronteiras.CadastroDePets;
+package com.petsemfronteiras.CadastroDePets.Animais.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
