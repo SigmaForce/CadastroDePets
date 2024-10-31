@@ -11,7 +11,12 @@ public class VacinaModel {
     private Long id;
     private String nome;
     private String marca;
+
+    @ManyToOne
+    @JoinColumn(name="animais_id")
     private AnimalModel animal;
+
+
 
     public VacinaModel() {
     }

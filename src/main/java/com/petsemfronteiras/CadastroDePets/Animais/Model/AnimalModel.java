@@ -19,7 +19,10 @@ public class AnimalModel {
     private String raca;
     private int idade;
     private String sexo;
+    // @ManyToOne um Animal tem uma unica vacina
+    @OneToMany(mappedBy = "animal")
     private List<VacinaModel> vacinas;
+
 
     public AnimalModel() {
     }
